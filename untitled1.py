@@ -13,10 +13,6 @@ cnt = 0
 for i in a:
   cnt+=i
 
-b = cnt
-
-for i in a:
-  b+=i
-
-for i in a:
-  c=1
+for g in a:
+  for j in a:
+     cnt+=j
